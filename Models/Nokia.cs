@@ -5,6 +5,7 @@ namespace DesafioPOO.Models
     {
         public Nokia(string numero) : base(numero)
         {
+            
         }
 
         public override void desligar()
@@ -17,7 +18,7 @@ namespace DesafioPOO.Models
         {
             System.Console.WriteLine("add app....");
             foreach(var i in nomesApps){
-                System.Console.WriteLine($"{i}");
+                System.Console.WriteLine($" - {i}");
             }
         }
 
